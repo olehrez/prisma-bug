@@ -1,0 +1,20 @@
+{
+  "name": "prisma-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "prisma generate",
+    "migrate": "prisma migrate dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^6.13.0",
+    "@swc/jest": "^0.2.39",
+    "jest": "^30.0.5",
+    "prisma": "^6.13.0"
+  }
+}
