@@ -2,7 +2,7 @@ import type { Config } from "jest";
 // import path from "node:path";
 // import fs from "node:fs";
 
-// const prismaClientPath = path.resolve(__dirname, "..", "database", "src", "generated", "prisma", "client.ts");
+// const prismaClientPath = path.resolve(__dirname, "generated", "prisma", "client.ts");
 
 // // --- Temporary monkey-patch for generated Prisma client.ts ---
 // // This is a non-breaking, temporary fix to work around a Prisma codegen issue
